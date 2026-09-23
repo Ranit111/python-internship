@@ -136,7 +136,6 @@ A distributable command-line diagnostics package (`devdiag`) that inspects machi
 An enterprise Object-Oriented Financial Ledger & Multi-Account Management Engine demonstrating design patterns, data structure efficiency, and persistence.
 - **OOP Design**: `Account` and `Transaction` abstract base classes with concrete polymorphic subtypes (`SavingsAccount`, `CheckingAccount`, `InvestmentAccount`, `BusinessAccount`).
 - **Algorithms**:
-  - Cryptographic transaction integrity using SHA-256: $\text{Hash} = \text{SHA256}(\text{tx\_id} : \text{account\_id} : \text{amount} : \text{timestamp})$
   - Binary search date range extraction: $O(\log N + K)$ via `bisect`.
   - Ledger balance reconciliation verification: $\text{Balance} = \sum \text{Impact}(T_i)$.
 - **Persistence**: Atomic two-way JSON snapshots and CSV dataset exports.
