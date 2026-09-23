@@ -1,0 +1,202 @@
+{
+  "schema_version": "1.0.0",
+  "timestamp": "2026-09-23T06:18:23.249026+00:00",
+  "overall_status": "ERROR",
+  "exit_code": 2,
+  "system": {
+    "python": {
+      "version": "3.11.9",
+      "executable": "C:\\Users\\ranit\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "in_virtualenv": false,
+      "virtualenv_path": null,
+      "implementation": "CPython",
+      "compiler": "MSC v.1938 64 bit (AMD64)",
+      "is_supported": true,
+      "status": "HEALTHY",
+      "message": "Python version >= 3.9"
+    },
+    "os": {
+      "system": "Windows",
+      "release": "10",
+      "version": "10.0.26200",
+      "machine": "AMD64",
+      "architecture": "64bit",
+      "processor": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel"
+    },
+    "resources": {
+      "disk": {
+        "path": "C:\\",
+        "total_gb": 474.71,
+        "used_gb": 416.05,
+        "free_gb": 58.67,
+        "percent_used": 87.6,
+        "status": "WARNING",
+        "message": "Disk usage elevated (87.6% used)"
+      },
+      "memory": {
+        "total_gb": 15.7,
+        "used_gb": 12.07,
+        "available_gb": 3.63,
+        "percent_used": 76.9,
+        "status": "HEALTHY",
+        "message": "Memory healthy (3.63 GB available)"
+      },
+      "cpu": {
+        "physical_cores": 8,
+        "logical_cores": 12,
+        "usage_percent": 46.4
+      }
+    },
+    "environment": {
+      "total_vars_count": 69,
+      "audited_variables": {
+        "ANTIGRAVITY_CSRF_TOKEN": "******** [REDACTED SECRET]",
+        "COMSPEC": "C:\\Windows\\system32\\cmd.exe",
+        "OMNIROUTE_API_KEY": "******** [REDACTED SECRET]",
+        "PATH": "[51 entries: C:/Users/ranit/.gemini/antigravity/bin ... C:\\Users\\ranit\\AppData\\Local\\Programs\\Antigravity IDE\\bin]",
+        "USERPROFILE": "C:\\Users\\ranit"
+      },
+      "has_virtualenv_set": false
+    }
+  },
+  "toolchain": {
+    "status": "WARNING",
+    "total_checked": 10,
+    "healthy": 5,
+    "warnings": 5,
+    "errors": 0,
+    "tools": [
+      {
+        "name": "git",
+        "installed": true,
+        "path": "C:\\Program Files\\Git\\cmd\\git.EXE",
+        "version": "git version 2.52.0.windows.1",
+        "required": true,
+        "status": "HEALTHY",
+        "message": "Tool operational"
+      },
+      {
+        "name": "python",
+        "installed": true,
+        "path": "C:\\Users\\ranit\\AppData\\Local\\Programs\\Python\\Python311\\python.EXE",
+        "version": "Python 3.11.9",
+        "required": true,
+        "status": "HEALTHY",
+        "message": "Tool operational"
+      },
+      {
+        "name": "pip",
+        "installed": true,
+        "path": "C:\\Users\\ranit\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\pip.EXE",
+        "version": "pip 26.2.1 from C:\\Users\\ranit\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\pip (python 3.11)",
+        "required": true,
+        "status": "HEALTHY",
+        "message": "Tool operational"
+      },
+      {
+        "name": "pytest",
+        "installed": true,
+        "path": "C:\\Users\\ranit\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\pytest.EXE",
+        "version": "pytest 9.1.1",
+        "required": false,
+        "status": "HEALTHY",
+        "message": "Tool operational"
+      },
+      {
+        "name": "node",
+        "installed": true,
+        "path": "C:\\nvm4w\\nodejs\\node.EXE",
+        "version": "v26.7.0",
+        "required": false,
+        "status": "HEALTHY",
+        "message": "Tool operational"
+      },
+      {
+        "name": "npm",
+        "installed": true,
+        "path": "C:\\nvm4w\\nodejs\\npm.CMD",
+        "version": null,
+        "required": false,
+        "status": "WARNING",
+        "message": "Execution failed: [WinError 2] The system cannot find the file specified"
+      },
+      {
+        "name": "docker",
+        "installed": false,
+        "path": null,
+        "version": null,
+        "required": false,
+        "status": "WARNING",
+        "message": "Optional tool not installed"
+      },
+      {
+        "name": "rustc",
+        "installed": false,
+        "path": null,
+        "version": null,
+        "required": false,
+        "status": "WARNING",
+        "message": "Optional tool not installed"
+      },
+      {
+        "name": "go",
+        "installed": false,
+        "path": null,
+        "version": null,
+        "required": false,
+        "status": "WARNING",
+        "message": "Optional tool not installed"
+      },
+      {
+        "name": "sqlite3",
+        "installed": false,
+        "path": null,
+        "version": null,
+        "required": false,
+        "status": "WARNING",
+        "message": "Optional tool not installed"
+      }
+    ]
+  },
+  "events": {
+    "total_events": 5,
+    "error_rate_percent": 40.0,
+    "levels": {
+      "INFO": 2,
+      "WARN": 1,
+      "ERROR": 2
+    },
+    "status_codes": {
+      "200": 3,
+      "503": 1,
+      "500": 1
+    },
+    "latency": {
+      "count": 4,
+      "min_ms": 148.0,
+      "max_ms": 1210.0,
+      "mean_ms": 620.75,
+      "median_ms": 562.5,
+      "p90_ms": 1210.0
+    },
+    "services": {
+      "billing-api": {
+        "total_requests": 3,
+        "errors": 1,
+        "warnings": 1,
+        "error_rate_pct": 33.33,
+        "avg_latency_ms": 534.0,
+        "status": "ERROR"
+      },
+      "profile-api": {
+        "total_requests": 2,
+        "errors": 1,
+        "warnings": 0,
+        "error_rate_pct": 50.0,
+        "avg_latency_ms": 707.5,
+        "status": "ERROR"
+      }
+    },
+    "status": "ERROR"
+  }
+}

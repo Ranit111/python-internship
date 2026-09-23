@@ -1,0 +1,119 @@
+{
+  "source_url": "https://remoteok.com/api",
+  "extracted_at": "2026-09-23T06:22:37.831960+00:00",
+  "total_records": 6,
+  "items": [
+    {
+      "job_id": "job-101",
+      "title": "Senior Python Backend Engineer",
+      "company": "Stripe Infrastructure",
+      "location": "Remote - US/Global",
+      "salary_min": 150000.0,
+      "salary_max": 190000.0,
+      "tags": [
+        "pythonfastapipostgresqlawsdocker",
+        "python",
+        "fastapi",
+        "postgresql",
+        "aws",
+        "docker"
+      ],
+      "url": "https://stripe.com/jobs/101",
+      "date_posted": "2026-09-23",
+      "seniority": "Senior"
+    },
+    {
+      "job_id": "job-102",
+      "title": "Lead Machine Learning Engineer",
+      "company": "Anthropic Labs",
+      "location": "Remote - USA",
+      "salary_min": 180000.0,
+      "salary_max": 240000.0,
+      "tags": [
+        "pythonpytorchaikubernetesgpu",
+        "python",
+        "pytorch",
+        "ai",
+        "kubernetes",
+        "gpu"
+      ],
+      "url": "https://anthropic.com/jobs/102",
+      "date_posted": "2026-09-23",
+      "seniority": "Senior"
+    },
+    {
+      "job_id": "job-103",
+      "title": "Full Stack React & Python Developer",
+      "company": "Datadog",
+      "location": "Remote - Europe",
+      "salary_min": 120000.0,
+      "salary_max": 150000.0,
+      "tags": [
+        "reactpythontypescriptgraphql",
+        "react",
+        "python",
+        "typescript",
+        "graphql"
+      ],
+      "url": "https://datadog.com/jobs/103",
+      "date_posted": "2026-09-23",
+      "seniority": "Mid-Level"
+    },
+    {
+      "job_id": "job-104",
+      "title": "Junior DevOps & Cloud Engineer",
+      "company": "Cloudflare",
+      "location": "Remote - Global",
+      "salary_min": 90000.0,
+      "salary_max": 115000.0,
+      "tags": [
+        "golangdockerkubernetesterraformaws",
+        "golang",
+        "docker",
+        "kubernetes",
+        "terraform",
+        "aws"
+      ],
+      "url": "https://cloudflare.com/jobs/104",
+      "date_posted": "2026-09-23",
+      "seniority": "Junior"
+    },
+    {
+      "job_id": "job-105",
+      "title": "Senior Distributed Systems Architect",
+      "company": "Snowflake",
+      "location": "San Francisco / Remote",
+      "salary_min": 200000.0,
+      "salary_max": 260000.0,
+      "tags": [
+        "rustc++distributed-systemssql",
+        "rust",
+        "c++",
+        "distributed-systems",
+        "sql"
+      ],
+      "url": "https://snowflake.com/jobs/105",
+      "date_posted": "2026-09-23",
+      "seniority": "Senior"
+    },
+    {
+      "job_id": "job-106",
+      "title": "Data Engineer - Python & Spark",
+      "company": "Spotify",
+      "location": "New York / Remote",
+      "salary_min": 140000.0,
+      "salary_max": 175000.0,
+      "tags": [
+        "pythonsparkairflowsqlgcp",
+        "python",
+        "spark",
+        "airflow",
+        "sql",
+        "gcp"
+      ],
+      "url": "https://spotify.com/jobs/106",
+      "date_posted": "2026-09-23",
+      "seniority": "Mid-Level"
+    }
+  ]
+}

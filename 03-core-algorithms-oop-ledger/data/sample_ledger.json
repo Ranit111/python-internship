@@ -1,0 +1,233 @@
+{
+  "version": "1.0.0",
+  "summary": {
+    "total_accounts": 4,
+    "total_balance": 210797.09,
+    "total_transactions": 15,
+    "breakdown_by_type": {
+      "SAVINGS": {
+        "count": 1,
+        "total_balance": 13355.42
+      },
+      "CHECKING": {
+        "count": 1,
+        "total_balance": 8900.0
+      },
+      "INVESTMENT": {
+        "count": 1,
+        "total_balance": 85566.67
+      },
+      "BUSINESS": {
+        "count": 1,
+        "total_balance": 102975.0
+      }
+    }
+  },
+  "accounts": [
+    {
+      "account_id": "SAV-1001",
+      "holder_name": "Emma Watson",
+      "account_type": "SAVINGS",
+      "balance": 13355.42,
+      "is_active": true,
+      "created_at": "2026-09-23T06:20:35.171038+00:00",
+      "transactions": [
+        {
+          "tx_id": "TXN-5467ABC6C6",
+          "account_id": "SAV-1001",
+          "type": "DEPOSIT",
+          "amount": 15000.0,
+          "impact": 15000.0,
+          "description": "Initial Account Opening Deposit",
+          "timestamp": "2026-09-23T06:20:35.171038+00:00",
+          "hash": "66fc0466965af53e257f5115536ba3e53e6ed886921c6f008091c65aa708f371",
+          "metadata": {}
+        },
+        {
+          "tx_id": "TXN-6EAE1C8D4B",
+          "account_id": "SAV-1001",
+          "type": "DEPOSIT",
+          "amount": 2500.0,
+          "impact": 2500.0,
+          "description": "Consulting Retainer",
+          "timestamp": "2026-09-23T06:20:35.171038+00:00",
+          "hash": "6a5f83b5d830876615746b5e3f419cb86b25eee7674513f65a4b12f66a214b56",
+          "metadata": {}
+        },
+        {
+          "tx_id": "TXN-3CCC0F80DA",
+          "account_id": "SAV-1001",
+          "type": "WITHDRAWAL",
+          "amount": 1200.0,
+          "impact": -1200.0,
+          "description": "Hardware Purchase",
+          "timestamp": "2026-09-23T06:20:35.171038+00:00",
+          "hash": "cec38b60b02b09adfc87c2e9a0933db73ee59dbd79585af51ffb8fc13f39b170",
+          "metadata": {}
+        },
+        {
+          "tx_id": "TXN-DA6CD7CE54",
+          "account_id": "SAV-1001",
+          "type": "WITHDRAWAL",
+          "amount": 3000.0,
+          "impact": -3000.0,
+          "description": "Transfer to CHK-2001",
+          "timestamp": "2026-09-23T06:20:35.171038+00:00",
+          "hash": "23e7a9794dc449b2cdb21a65e31dae33b41683e1ed357c633532b6fffb3f6531",
+          "metadata": {}
+        },
+        {
+          "tx_id": "TXN-A09F2BE6F6",
+          "account_id": "SAV-1001",
+          "type": "INTEREST",
+          "amount": 55.42,
+          "impact": 55.42,
+          "description": "Monthly Interest Credit for SAVINGS",
+          "timestamp": "2026-09-23T06:20:35.171038+00:00",
+          "hash": "321602eff8c352fd48d44945d64aeb5d662f677c482764deeefe8e0623ea2c83",
+          "metadata": {}
+        }
+      ]
+    },
+    {
+      "account_id": "CHK-2001",
+      "holder_name": "John Doe",
+      "account_type": "CHECKING",
+      "balance": 8900.0,
+      "is_active": true,
+      "created_at": "2026-09-23T06:20:35.171038+00:00",
+      "transactions": [
+        {
+          "tx_id": "TXN-FBDDA1A3D0",
+          "account_id": "CHK-2001",
+          "type": "DEPOSIT",
+          "amount": 3500.0,
+          "impact": 3500.0,
+          "description": "Initial Account Opening Deposit",
+          "timestamp": "2026-09-23T06:20:35.171038+00:00",
+          "hash": "9af04d8f8f5df8ab23ff1c8a336606eece7b0ad8f9602da2d9ccc5657fb48b0a",
+          "metadata": {}
+        },
+        {
+          "tx_id": "TXN-C21FFAD5A9",
+          "account_id": "CHK-2001",
+          "type": "DEPOSIT",
+          "amount": 4200.0,
+          "impact": 4200.0,
+          "description": "Direct Deposit Payroll",
+          "timestamp": "2026-09-23T06:20:35.171038+00:00",
+          "hash": "33a6cef19c35b37bab454bb6ab65ceac31063398a9ef7593706fcb32d79146d5",
+          "metadata": {}
+        },
+        {
+          "tx_id": "TXN-50D11C9FDC",
+          "account_id": "CHK-2001",
+          "type": "WITHDRAWAL",
+          "amount": 1800.0,
+          "impact": -1800.0,
+          "description": "Office Lease",
+          "timestamp": "2026-09-23T06:20:35.171038+00:00",
+          "hash": "0816eb7a2c46fa3ccc019c1c1764921541f8738e41a0b36e5d042c711d601c99",
+          "metadata": {}
+        },
+        {
+          "tx_id": "TXN-8FD2B02DB5",
+          "account_id": "CHK-2001",
+          "type": "DEPOSIT",
+          "amount": 3000.0,
+          "impact": 3000.0,
+          "description": "Transfer received from SAV-1001",
+          "timestamp": "2026-09-23T06:20:35.171038+00:00",
+          "hash": "8e546247ba5fb9a79f8c7faa4ec3bd859bf6aa5ab4bc137bcf5f39870f9836a5",
+          "metadata": {}
+        }
+      ]
+    },
+    {
+      "account_id": "INV-3001",
+      "holder_name": "Alex Rivera",
+      "account_type": "INVESTMENT",
+      "balance": 85566.67,
+      "is_active": true,
+      "created_at": "2026-09-23T06:20:35.171038+00:00",
+      "transactions": [
+        {
+          "tx_id": "TXN-6F1D3DCD07",
+          "account_id": "INV-3001",
+          "type": "DEPOSIT",
+          "amount": 75000.0,
+          "impact": 75000.0,
+          "description": "Initial Account Opening Deposit",
+          "timestamp": "2026-09-23T06:20:35.171038+00:00",
+          "hash": "a5033fdaa1710450b140e29b53a8d79ae996ddf49f87abc7f70a8e5b2824c9cd",
+          "metadata": {}
+        },
+        {
+          "tx_id": "TXN-672C90F6DE",
+          "account_id": "INV-3001",
+          "type": "DEPOSIT",
+          "amount": 10000.0,
+          "impact": 10000.0,
+          "description": "Portfolio Re-investment",
+          "timestamp": "2026-09-23T06:20:35.171038+00:00",
+          "hash": "8bad47c65e520cded7c49eea547da400ea61ca8d0f45218df1fa586a04af6707",
+          "metadata": {}
+        },
+        {
+          "tx_id": "TXN-D63AACCD74",
+          "account_id": "INV-3001",
+          "type": "INTEREST",
+          "amount": 566.67,
+          "impact": 566.67,
+          "description": "Monthly Interest Credit for INVESTMENT",
+          "timestamp": "2026-09-23T06:20:35.171038+00:00",
+          "hash": "d6e133b8462bb6326d95bdc174843a3bc08342418e8f9f53e7e36d7b8420616a",
+          "metadata": {}
+        }
+      ]
+    },
+    {
+      "account_id": "BIZ-4001",
+      "holder_name": "Apex Logistics LLC",
+      "account_type": "BUSINESS",
+      "balance": 102975.0,
+      "is_active": true,
+      "created_at": "2026-09-23T06:20:35.171038+00:00",
+      "transactions": [
+        {
+          "tx_id": "TXN-580EA1F51E",
+          "account_id": "BIZ-4001",
+          "type": "DEPOSIT",
+          "amount": 125000.0,
+          "impact": 125000.0,
+          "description": "Initial Account Opening Deposit",
+          "timestamp": "2026-09-23T06:20:35.171038+00:00",
+          "hash": "25e7c90c32da72f510860f1d2de39a8694ab580f9e6b4826b197bd1df64b7785",
+          "metadata": {}
+        },
+        {
+          "tx_id": "TXN-069C2B558E",
+          "account_id": "BIZ-4001",
+          "type": "WITHDRAWAL",
+          "amount": 22000.0,
+          "impact": -22000.0,
+          "description": "Fleet Fuel Invoices",
+          "timestamp": "2026-09-23T06:20:35.171038+00:00",
+          "hash": "11e40c68e35a40be3c4ff8e5469d827077be237b6c6944e94adb45d0276b0fe5",
+          "metadata": {}
+        },
+        {
+          "tx_id": "TXN-A5213539FE",
+          "account_id": "BIZ-4001",
+          "type": "FEE",
+          "amount": 25.0,
+          "impact": -25.0,
+          "description": "Monthly Maintenance Fee for BUSINESS",
+          "timestamp": "2026-09-23T06:20:35.171038+00:00",
+          "hash": "9b501d7bfc31bce752c15fd919220639e73104dc3a196ecbdf87341d350d0174",
+          "metadata": {}
+        }
+      ]
+    }
+  ]
+}

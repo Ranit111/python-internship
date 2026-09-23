@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sentinel_bot"
+version = "1.0.0"
+description = "Enterprise Automated Sentinel: Telemetry Pipeline, Automated PDF Executive Reporting & Health Alert Bot"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "reportlab>=4.0.0",
+    "psutil>=5.9.0",
+    "requests>=2.31.0",
+    "pydantic>=2.0.0",
+    "rich>=13.0.0"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0"
+]
+
+[project.scripts]
+sentinel = "sentinel.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

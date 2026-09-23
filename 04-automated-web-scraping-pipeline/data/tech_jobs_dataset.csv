@@ -1,0 +1,7 @@
+job_id,title,company,location,seniority,salary_min,salary_max,salary_average,tags,url,date_posted
+job-101,Senior Python Backend Engineer,Stripe Infrastructure,Remote - US/Global,Senior,150000.0,190000.0,170000.0,pythonfastapipostgresqlawsdocker; python; fastapi; postgresql; aws; docker,https://stripe.com/jobs/101,2026-09-23
+job-102,Lead Machine Learning Engineer,Anthropic Labs,Remote - USA,Senior,180000.0,240000.0,210000.0,pythonpytorchaikubernetesgpu; python; pytorch; ai; kubernetes; gpu,https://anthropic.com/jobs/102,2026-09-23
+job-103,Full Stack React & Python Developer,Datadog,Remote - Europe,Mid-Level,120000.0,150000.0,135000.0,reactpythontypescriptgraphql; react; python; typescript; graphql,https://datadog.com/jobs/103,2026-09-23
+job-104,Junior DevOps & Cloud Engineer,Cloudflare,Remote - Global,Junior,90000.0,115000.0,102500.0,golangdockerkubernetesterraformaws; golang; docker; kubernetes; terraform; aws,https://cloudflare.com/jobs/104,2026-09-23
+job-105,Senior Distributed Systems Architect,Snowflake,San Francisco / Remote,Senior,200000.0,260000.0,230000.0,rustc++distributed-systemssql; rust; c++; distributed-systems; sql,https://snowflake.com/jobs/105,2026-09-23
+job-106,Data Engineer - Python & Spark,Spotify,New York / Remote,Mid-Level,140000.0,175000.0,157500.0,pythonsparkairflowsqlgcp; python; spark; airflow; sql; gcp,https://spotify.com/jobs/106,2026-09-23

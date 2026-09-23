@@ -1,0 +1,30 @@
+{
+  "app_name": "Enterprise Sentinel",
+  "environment": "production",
+  "thresholds": {
+    "cpu_warning_pct": 75.0,
+    "cpu_critical_pct": 90.0,
+    "memory_warning_pct": 80.0,
+    "memory_critical_pct": 92.0,
+    "disk_warning_pct": 85.0,
+    "disk_critical_pct": 95.0,
+    "api_latency_max_ms": 1500.0
+  },
+  "endpoints": [
+    { "name": "Payment Gateway", "url": "https://httpbin.org/status/200", "expected_status": 200, "timeout": 3.0 },
+    { "name": "Authentication Microservice", "url": "https://httpbin.org/status/200", "expected_status": 200, "timeout": 3.0 },
+    { "name": "External Partner API", "url": "https://httpbin.org/status/200", "expected_status": 200, "timeout": 3.0 }
+  ],
+  "notification": {
+    "enable_console": true,
+    "enable_webhook": false,
+    "webhook_url": "https://webhook.site/placeholder-alert-url",
+    "alert_on_warning": true,
+    "alert_on_critical": true
+  },
+  "reporting": {
+    "output_pdf": "output/executive_health_report.pdf",
+    "company_name": "RabTech Enterprise Systems",
+    "author": "Automated Sentinel Bot"
+  }
+}
