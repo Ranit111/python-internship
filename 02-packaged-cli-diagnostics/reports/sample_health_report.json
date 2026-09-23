@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0.0",
-  "timestamp": "2026-09-23T06:18:23.249026+00:00",
+  "timestamp": "2026-09-23T06:00:00.000000+00:00",
   "overall_status": "ERROR",
   "exit_code": 2,
   "system": {
     "python": {
       "version": "3.11.9",
-      "executable": "C:\\Users\\ranit\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
-      "in_virtualenv": false,
-      "virtualenv_path": null,
+      "executable": "C:\\Python311\\python.exe",
+      "in_virtualenv": true,
+      "virtualenv_path": "C:\\projects\\dev-environment\\.venv",
       "implementation": "CPython",
       "compiler": "MSC v.1938 64 bit (AMD64)",
       "is_supported": true,
@@ -17,8 +17,8 @@
     },
     "os": {
       "system": "Windows",
-      "release": "10",
-      "version": "10.0.26200",
+      "release": "11",
+      "version": "10.0.22631",
       "machine": "AMD64",
       "architecture": "64bit",
       "processor": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel"
@@ -26,51 +26,51 @@
     "resources": {
       "disk": {
         "path": "C:\\",
-        "total_gb": 474.71,
-        "used_gb": 416.05,
-        "free_gb": 58.67,
-        "percent_used": 87.6,
-        "status": "WARNING",
-        "message": "Disk usage elevated (87.6% used)"
+        "total_gb": 512.0,
+        "used_gb": 320.0,
+        "free_gb": 192.0,
+        "percent_used": 62.5,
+        "status": "HEALTHY",
+        "message": "Disk space healthy (192.0 GB free)"
       },
       "memory": {
-        "total_gb": 15.7,
-        "used_gb": 12.07,
-        "available_gb": 3.63,
-        "percent_used": 76.9,
+        "total_gb": 16.0,
+        "used_gb": 8.5,
+        "available_gb": 7.5,
+        "percent_used": 53.1,
         "status": "HEALTHY",
-        "message": "Memory healthy (3.63 GB available)"
+        "message": "Memory healthy (7.5 GB available)"
       },
       "cpu": {
         "physical_cores": 8,
-        "logical_cores": 12,
-        "usage_percent": 46.4
+        "logical_cores": 16,
+        "usage_percent": 18.5
       }
     },
     "environment": {
-      "total_vars_count": 69,
+      "total_vars_count": 42,
       "audited_variables": {
-        "ANTIGRAVITY_CSRF_TOKEN": "******** [REDACTED SECRET]",
+        "API_KEY": "******** [REDACTED SECRET]",
         "COMSPEC": "C:\\Windows\\system32\\cmd.exe",
-        "OMNIROUTE_API_KEY": "******** [REDACTED SECRET]",
-        "PATH": "[51 entries: C:/Users/ranit/.gemini/antigravity/bin ... C:\\Users\\ranit\\AppData\\Local\\Programs\\Antigravity IDE\\bin]",
-        "USERPROFILE": "C:\\Users\\ranit"
+        "DATABASE_PASSWORD": "******** [REDACTED SECRET]",
+        "PATH": "[12 entries: C:\\Python311\\Scripts ... C:\\Program Files\\Git\\cmd]",
+        "USERPROFILE": "C:\\Users\\developer"
       },
-      "has_virtualenv_set": false
+      "has_virtualenv_set": true
     }
   },
   "toolchain": {
-    "status": "WARNING",
+    "status": "HEALTHY",
     "total_checked": 10,
-    "healthy": 5,
-    "warnings": 5,
+    "healthy": 8,
+    "warnings": 2,
     "errors": 0,
     "tools": [
       {
         "name": "git",
         "installed": true,
         "path": "C:\\Program Files\\Git\\cmd\\git.EXE",
-        "version": "git version 2.52.0.windows.1",
+        "version": "git version 2.44.0.windows.1",
         "required": true,
         "status": "HEALTHY",
         "message": "Tool operational"
@@ -78,7 +78,7 @@
       {
         "name": "python",
         "installed": true,
-        "path": "C:\\Users\\ranit\\AppData\\Local\\Programs\\Python\\Python311\\python.EXE",
+        "path": "C:\\Python311\\python.EXE",
         "version": "Python 3.11.9",
         "required": true,
         "status": "HEALTHY",
@@ -87,8 +87,8 @@
       {
         "name": "pip",
         "installed": true,
-        "path": "C:\\Users\\ranit\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\pip.EXE",
-        "version": "pip 26.2.1 from C:\\Users\\ranit\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\pip (python 3.11)",
+        "path": "C:\\Python311\\Scripts\\pip.EXE",
+        "version": "pip 24.0",
         "required": true,
         "status": "HEALTHY",
         "message": "Tool operational"
@@ -96,8 +96,8 @@
       {
         "name": "pytest",
         "installed": true,
-        "path": "C:\\Users\\ranit\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\pytest.EXE",
-        "version": "pytest 9.1.1",
+        "path": "C:\\Python311\\Scripts\\pytest.EXE",
+        "version": "pytest 8.1.1",
         "required": false,
         "status": "HEALTHY",
         "message": "Tool operational"
@@ -105,8 +105,8 @@
       {
         "name": "node",
         "installed": true,
-        "path": "C:\\nvm4w\\nodejs\\node.EXE",
-        "version": "v26.7.0",
+        "path": "C:\\Program Files\\nodejs\\node.EXE",
+        "version": "v20.12.0",
         "required": false,
         "status": "HEALTHY",
         "message": "Tool operational"
@@ -114,20 +114,20 @@
       {
         "name": "npm",
         "installed": true,
-        "path": "C:\\nvm4w\\nodejs\\npm.CMD",
-        "version": null,
+        "path": "C:\\Program Files\\nodejs\\npm.CMD",
+        "version": "10.5.0",
         "required": false,
-        "status": "WARNING",
-        "message": "Execution failed: [WinError 2] The system cannot find the file specified"
+        "status": "HEALTHY",
+        "message": "Tool operational"
       },
       {
         "name": "docker",
-        "installed": false,
-        "path": null,
-        "version": null,
+        "installed": true,
+        "path": "C:\\Program Files\\Docker\\Docker\\resources\\bin\\docker.EXE",
+        "version": "Docker version 26.0.0",
         "required": false,
-        "status": "WARNING",
-        "message": "Optional tool not installed"
+        "status": "HEALTHY",
+        "message": "Tool operational"
       },
       {
         "name": "rustc",
@@ -149,12 +149,12 @@
       },
       {
         "name": "sqlite3",
-        "installed": false,
-        "path": null,
-        "version": null,
+        "installed": true,
+        "path": "C:\\sqlite\\sqlite3.EXE",
+        "version": "3.45.1",
         "required": false,
-        "status": "WARNING",
-        "message": "Optional tool not installed"
+        "status": "HEALTHY",
+        "message": "Tool operational"
       }
     ]
   },

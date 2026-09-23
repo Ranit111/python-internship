@@ -1,34 +1,35 @@
 ========================================================================
              DEVELOPER ENVIRONMENT HEALTH REPORT
 ========================================================================
- Timestamp    : 2026-09-23T06:18:20.928830+00:00
+ Timestamp    : 2026-09-23T06:00:00.000000+00:00
  Overall Status: [ERROR] (Exit Code: 2)
 ------------------------------------------------------------------------
 
 [1] PYTHON RUNTIME & ENVIRONMENT
   * Python Version  : 3.11.9 (HEALTHY)
-  * Executable Path : C:\Users\ranit\AppData\Local\Programs\Python\Python311\python.exe
-  * Virtualenv Active: NO
+  * Executable Path : C:\Python311\python.exe
+  * Virtualenv Active: YES
+  * Virtualenv Path : C:\projects\dev-environment\.venv
   * Compiler/Impl   : CPython / MSC v.1938 64 bit (AMD64)
 
 [2] OPERATING SYSTEM & HARDWARE RESOURCES
-  * OS Platform     : Windows 10 (64bit)
-  * CPU Cores       : 8 Physical, 12 Logical (12.5% utilized)
-  * Memory (RAM)    : 11.58 / 15.7 GB (73.7%) [HEALTHY]
-  * Primary Disk    : 58.67 GB free of 474.71 GB (87.6%) [WARNING]
+  * OS Platform     : Windows 11 (64bit)
+  * CPU Cores       : 8 Physical, 16 Logical (18.5% utilized)
+  * Memory (RAM)    : 8.5 / 16.0 GB (53.1%) [HEALTHY]
+  * Primary Disk    : 192.0 GB free of 512.0 GB (62.5%) [HEALTHY]
 
 [3] CONFIGURED DEVELOPER TOOLCHAIN
-  * Tools Checked   : 10 (Healthy: 5, Warn: 5, Fail: 0)
-    - git        [HEALTHY] (Required) : git version 2.52.0.windows.1
+  * Tools Checked   : 10 (Healthy: 8, Warn: 2, Fail: 0)
+    - git        [HEALTHY] (Required) : git version 2.44.0.windows.1
     - python     [HEALTHY] (Required) : Python 3.11.9
-    - pip        [HEALTHY] (Required) : pip 26.2.1 from C:\Users\ranit\AppData\Local\Programs\Python\Python311\Lib\site-packages\pip (python 3.11)
-    - pytest     [HEALTHY] (Optional) : pytest 9.1.1
-    - node       [HEALTHY] (Optional) : v26.7.0
-    - npm        [WARNING] (Optional) : Not Installed
-    - docker     [WARNING] (Optional) : Not Installed
+    - pip        [HEALTHY] (Required) : pip 24.0
+    - pytest     [HEALTHY] (Optional) : pytest 8.1.1
+    - node       [HEALTHY] (Optional) : v20.12.0
+    - npm        [HEALTHY] (Optional) : 10.5.0
+    - docker     [HEALTHY] (Optional) : Docker version 26.0.0
     - rustc      [WARNING] (Optional) : Not Installed
     - go         [WARNING] (Optional) : Not Installed
-    - sqlite3    [WARNING] (Optional) : Not Installed
+    - sqlite3    [HEALTHY] (Optional) : 3.45.1
 
 [4] DIAGNOSTIC EVENT LOG ANALYSIS
   * Total Events    : 5

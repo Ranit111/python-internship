@@ -66,8 +66,9 @@ devdiag --events sample_data/diagnostic-events.json -o reports/sample_health_rep
 
 [1] PYTHON RUNTIME & ENVIRONMENT
   * Python Version  : 3.11.9 (HEALTHY)
-  * Executable Path : C:\Users\ranit\AppData\Local\Programs\Python\Python311\python.exe
+  * Executable Path : C:\Python311\python.exe
   * Virtualenv Active: YES
+  * Virtualenv Path : C:\projects\dev-environment\.venv
   * Compiler/Impl   : CPython / MSC v.1938 64 bit (AMD64)
 
 [2] OPERATING SYSTEM & HARDWARE RESOURCES
